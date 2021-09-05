@@ -9,11 +9,11 @@ int main() {
 	cout<<" Enter value for third number:";
 	cin>>num3;
 	if(num1>num2&&num1>num3) {
-		cout<<" First number is greatest:"<<endl<<"whick is= "<<num1;
+		cout<<"Largest Number: "<<num1;
 	} else if(num2>num1&&num2>num3) {
-		cout<<" Second number is greatest"<<endl<<"whick is= "<<num2;
+		cout<<" Largest Number: "<<num2;
 	} else {
-		cout<<" Third number is greatest"<<endl<<"whick is= "<<num3;
+		cout<<" Largest Number: "<<num3;
 	}
 	return 0;
 }
